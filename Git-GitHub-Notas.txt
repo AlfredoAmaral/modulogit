@@ -1,0 +1,36 @@
+
+
+1-Como iniciar repositorio?
+R: Aceder a pasta do projeto com cdm  e correr o comando git init, ex: C:\xampp\htdocs\modulogit>git init
+
+2-COMIT - Serve para enviar as alterações para GIT
+3-O que é Branch ?
+R: versões diferentes do sistema/documento 
+
+4-Comando git status
+R: mostrado o estado das alterações
+
+5-Como adicionar files ao monitoramento git
+git add "nome do ficheiro"
+git add -A (todos os files)
+
+6-Como efetuar commit ?
+
+git commit -m "Primeiro commit"
+
+7- git branch - mostra a lista de brunch
+8- git log - mostra o log de alterações 
+9- git commit -am:  adiciona a lista de monitorização e commita.
+10-como aceder ao branch: git checkout "Nome do Branch"
+11-git diff : mostra a diferança ou linhas alteradas entre o que está commitado e o que não está.
+12-Como subir repositorio local para o repositotio Remoto ?
+
+12.1 Deve se gerar a chave publica: ssh-keygen -t rsa -b 4096 -C "alfredo_amaral@hotmail.com"
+12.2 correr comando: git remote add origin https://github.com/AlfredoAmaral/modulogit.git
+
+13-Como verificar repositorios adicionados: git remote -v
+
+14-Como puxar repositorio remoto para o local: git pull
+15-Como subir alterações do remoto pra o local:  git push -u origin master
+
+
